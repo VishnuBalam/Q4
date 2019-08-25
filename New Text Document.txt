@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+int x,y;
+char op;
+printf("enter values of x,y and operator symbol")
+scanf("%d%d",&x,&y);
+scanf("%c",&op);
+switch(op)
+{
+case '+': printf("sum=%d",x+y);
+break;
+case'-':printf("difference=%d",x-y);
+break;
+case '*': printf("multiplication=%d",x*y);
+break;
+case '%': printf("modulus=%d",x%y);
+break;
+case '/': printf("division=%d",x/y);
+break;
+default:printf("none of the above");
+}
+return(0);
+}
